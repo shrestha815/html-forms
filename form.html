@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Public Record Form</h1>
+    </header>
+
+    <form>
+      <div>
+        <label for="">Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your  full name"
+        />
+      </div>
+
+      <br /><br />
+      <div>
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+      </div>
+      <br /><br />
+
+      <div>
+        <label for="phone number">Phone Number: </label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter your phone number"
+        />
+      </div>
+      <br /><br />
+
+      <div>
+        <label for="age group">Age Group: </label>
+        <input type="radio" name="age group" id="age group" value="18-25" />
+        <label for="age group">18-25</label>
+        <input type="radio" name="age group" id="age group" value="26-33" />
+        <label for="age group">26-33</label>
+        <input type="radio" name="age group" id="age group" value="34-40" />
+        <label for="age group">34-40</label>
+        <input type="radio" name="age group" id="age group" value="41-48" />
+        <label for="age group">41-48</label>
+      </div>
+      <br /><br />
+
+      <div>
+        <label for="Gender">Gender: </label>
+        <input type="radio" name="Gender" id="Gender" value="Male" />
+        <label for="Male">Male</label>
+
+        <input type="radio" name="Gender" id="Gender" value="Female" />
+        <label for="Female">Female</label>
+      </div>
+      <br /><br />
+
+      <div>
+        <label for="country">Select Your country: </label>
+        <input list="Countries" name="country" id="country" />
+        <datalist id="Countries">
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="Mexico">Mexico</option>
+          <option value="UK">UK</option>
+          <option value="Australia">Australia</option>
+        </datalist>
+      </div>
+      <br /><br />
+
+      <div>
+        <label for="review">Rate your experience</label>
+      </div>
+    </form>
+  </body>
+</html>
