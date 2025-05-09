@@ -82,6 +82,65 @@
 
       <div>
         <label for="review">Rate your experience</label>
+        <select name="tier" id="tier" title="Rate your experience">
+          <option value="Excellent">Excellent</option>
+          <option value="Good">Good</option>
+          <option value="Average">Average</option>
+          <option value="Poor">Poor</option>
+        </select>
+      </div>
+
+      <br /><br />
+      <div>
+        <label for="comments or suggestions">Comments or Suggestions: </label>
+        <textarea
+          name="comments or suggestions"
+          id="comments or suggestions"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comments or suggestions here"
+        >
+        </textarea>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="Would you recommend our website to others?"
+          >Would you recommend our website to others?</label
+        >
+        <input type="radio" name="Choice" id="Choice" value="Yes" />
+        <label for="Yes">Yes</label>
+        <input type="radio" name="Choice" id="Choice" value="No" />
+        <label for="No">No</label>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="screenshot">Upload a Screenshot</label>
+        <input
+          type="file"
+          name="screenshot"
+          id="screenshot"
+          accept=".jpg, .jpeg, .png"
+          title="Upload a screenshot of your choice"
+        />
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="Date of Visitation">Date of Visit:</label>
+        <input type="date" name="Date of Visitation" id="Date of Visitation" />
+      </div>
+
+      <br /><br />
+
+      <div>
+        <button type="submit">Submit</button>
+        <br /><br />
+        <button type="reset">Reset</button>
       </div>
     </form>
   </body>
